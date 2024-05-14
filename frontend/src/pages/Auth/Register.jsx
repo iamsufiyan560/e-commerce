@@ -56,7 +56,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-black"
             >
               Name
             </label>
@@ -73,7 +73,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-black"
             >
               Email Address
             </label>
@@ -90,7 +90,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-black"
             >
               Password
             </label>
@@ -107,7 +107,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="confirmPassword"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-black"
             >
               Confirm Password
             </label>
@@ -124,7 +124,7 @@ const Register = () => {
           <button
             disabled={isLoading}
             type="submit"
-            className="bg-pink-500 text-white px-4 py-2 rounded cursor-pointer my-[1rem]"
+            className="bg-pink-500 text-black px-4 py-2 rounded cursor-pointer my-[1rem]"
           >
             {isLoading ? "Registering..." : "Register"}
           </button>
