@@ -56,7 +56,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-black"
+              className="block text-sm font-medium text-white"
             >
               Name
             </label>
@@ -73,7 +73,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-black"
+              className="block text-sm font-medium text-white"
             >
               Email Address
             </label>
@@ -90,7 +90,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-black"
+              className="block text-sm font-medium text-white"
             >
               Password
             </label>
@@ -107,7 +107,7 @@ const Register = () => {
           <div className="my-[2rem]">
             <label
               htmlFor="confirmPassword"
-              className="block text-sm font-medium text-black"
+              className="block text-sm font-medium text-white"
             >
               Confirm Password
             </label>
@@ -124,7 +124,7 @@ const Register = () => {
           <button
             disabled={isLoading}
             type="submit"
-            className="bg-pink-500 text-black px-4 py-2 rounded cursor-pointer my-[1rem]"
+            className="bg-pink-500 text-white px-4 py-2 rounded cursor-pointer my-[1rem]"
           >
             {isLoading ? "Registering..." : "Register"}
           </button>
@@ -133,7 +133,7 @@ const Register = () => {
         </form>
 
         <div className="mt-4">
-          <p className="text-black">
+          <p className="text-white">
             Already have an account?{" "}
             <Link
               to={redirect ? `/login?redirect=${redirect}` : "/login"}
